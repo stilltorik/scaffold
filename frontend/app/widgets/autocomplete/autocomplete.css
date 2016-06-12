@@ -1,0 +1,17 @@
+.autocomplete-input {
+    position: relative;
+}
+
+.suggestions {
+    position: absolute;
+    background-color: white;
+    list-style-type: none;
+}
+
+.suggestions:empty {
+    display: none;
+}
+
+.suggestion {
+    cursor: pointer;
+}

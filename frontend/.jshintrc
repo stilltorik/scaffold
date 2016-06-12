@@ -1,0 +1,21 @@
+{
+  "bitwise": true,
+  "esversion": 5,
+  "freeze": true,
+  "funcscope": true,
+  "futurehostile": true,
+  "globals": {"eventastic": true},
+  "latedef": true,
+  "maxparams": 3,
+  "noarg": true,
+  "nocomma": true,
+  "nonbsp": true,
+  "nonew": true,
+  "quotmark": "single",
+  "singleGroups": true,
+  "strict": true,
+  "undef": true,
+  "unused": true,
+  "predef": [ "eventastic" ],
+  "lastsemic": true
+}

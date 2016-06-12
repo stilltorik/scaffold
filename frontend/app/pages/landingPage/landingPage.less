@@ -1,0 +1,50 @@
+@import "dependencies.less";
+
+html {
+    height: 100%;
+}
+
+body.body-landingPage {
+    width: 100%;
+    height: 100%;
+    background: transparent url('/images/landingBackground1.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.landingPage {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.landingPage .searchPanel {
+    align-self: center;
+    padding: 15px;
+    background:rgba(255,255,255,0.5);
+    border-radius: 5px;
+}
+
+
+.landingPage .searchPanel input {
+    border: none;
+    margin: 0;
+    padding: 5px;
+}
+
+.landingPage .searchPanel input.where {
+    border-radius: 5px 0 0 5px;
+}
+
+.landingPage .searchPanel input.when {
+    border-radius: 0 5px 5px 0;
+}
+
+.landingPage .searchPanel .searchButton {
+    background: transparent url('/images/searchButton.png') no-repeat center center;
+    background-size: cover;
+    width: 30px;
+    height: 24px;
+    border: none;
+    vertical-align: bottom;
+    margin-left: 5px;
+}

@@ -1,0 +1,11 @@
+{
+  "name": "eventastic frontend",
+  "private": true,
+  "dependencies": {
+    "handlebars": "4.0.5"
+  },
+  "devDependencies": {
+    "jasmine": "~2.3.4",
+    "jasmine-jquery": "~2.1.0"
+  }
+}
