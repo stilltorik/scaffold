@@ -18,6 +18,7 @@ In order to start developing, the default `grunt` task builds the project and st
 - There is no database right now.
 - The production mode is not yet correctly handled. There is no way to run the server in production mode.
 - i18n
+- Testing
 - I'd like to have some stuff added to the layout:
     - In dev mode, have files added one by one (easier debugging)
     - i18n strings added to html file directly (in layout.hbs)
