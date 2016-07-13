@@ -6,7 +6,7 @@
   *
   * to register a set of strings
   *
-  * x18n.register('en', {
+  * app.i18n.register('en', {
   *   user: {
   *    name: 'My name is @{name}',
   *    logout: 'Logout',

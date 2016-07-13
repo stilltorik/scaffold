@@ -1,7 +1,9 @@
 {
-  "name": "scaffold frontend",
+  "name": "scaffoldFrontend",
   "version": "0.0.1",
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "4.13.1"
+  },
   "devDependencies": {
     "grunt": "1.0.0",
     "grunt-contrib-clean": "1.0.0",
