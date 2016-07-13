@@ -28,15 +28,15 @@ app.i18n.register('en', {
  }
 });
 
-i18n.translate('user.logout'); // 'Logout'
-i18n.translate('user.name', {name: 'Bob'}); // 'My name is Bob'
+app.i18n.translate('user.logout'); // 'Logout'
+app.i18n.translate('user.name', {name: 'Bob'}); // 'My name is Bob'
 
-i18n.translate('user.age', {age: 1}); // 'I am one year old.'
-i18n.translate('user.age', {age: 2}); // 'I am two years old.'
-i18n.translate('user.age', {age: 13}); // 'I am 13 years old.'
+app.i18n.translate('user.age', {age: 1}); // 'I am one year old.'
+app.i18n.translate('user.age', {age: 2}); // 'I am two years old.'
+app.i18n.translate('user.age', {age: 13}); // 'I am 13 years old.'
 
-i18n.setDefault('en'); // sets the default language to English
-i18n.setLanguage('fr'); // sets the current language to French
+app.i18n.setDefault('en'); // sets the default language to English
+app.i18n.setLanguage('fr'); // sets the current language to French
 ```
 and you have an internationalization framework in less than 80 lines of code (including comments).
 
