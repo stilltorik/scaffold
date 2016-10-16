@@ -17,13 +17,13 @@ I have added a very simple internationalization framework, to get me started. Th
 ```js
 app.i18n.register('en', {
  user: {
-  name: 'My name is @{name}',
+  name: 'My name is %{name}',
   logout: 'Logout',
   age: {
     counter: 'age'
     1: 'I am one year old.',
     2: 'I am two years old',
-    n: 'I am @{age} years old'
+    n: 'I am %{age} years old'
   }
  }
 });
