@@ -7,6 +7,7 @@ The template I use for new web applications. It is based on Nodejs/Express for t
 - Clone the project
 - install grunt (required for the frontend folder).
 - use npm install at the root, and in the frontend project.
+- you might have to manually add a data folder at the root, and run `mongod --dbpath ./data/db/` the first time (The reason why is to be investigated).
 - run `grunt buildDev` or `grunt` (to have watch running) in the frontend folder
 - run launchServer.sh to start the server
 - open localhost:3000 in your browser
@@ -52,7 +53,6 @@ It also works with variables present in the context
 
 ## Still to do
 
-- There is no database right now.
 - The production mode is not yet correctly handled. There is no way to run the server in production mode.
 - Testing
 - I'd like to have some stuff added to the layout:
