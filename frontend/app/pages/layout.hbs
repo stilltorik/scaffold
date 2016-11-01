@@ -3,9 +3,19 @@
   <head>
     <title>{{title}}</title>
     <link rel="stylesheet" href="styles.css"/>
-    <script src="application.js"></script> 
+    <script src="application.js"></script>
   </head>
   <body>
-    {{{body}}}
+    <div id="errorContainer"></div>
+    {{#if loginForm}}
+      <div id="loginFormContainer"></div>
+    {{/if}}
+    <div id="content" class="content"></div>
+    <script type="text/javascript">
+        {{{initFunction}}}
+        {{#if loginForm}}
+          app.loginForm.init();
+        {{/if}}
+    </script>
   </body>
 </html>

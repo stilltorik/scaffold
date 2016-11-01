@@ -3,14 +3,18 @@ module.exports = function(grunt) {
   var listJSFiles = [
     '.build/start.js',
     '.build/helpers/utils.js',
-    '.build/widgets/autocomplete/autocomplete.js',
+    '.build/helpers/promises.js',
+    '.build/widgets/loginForm/loginForm.js',
     '.build/widgets/i18n/i18n.js',
     '.build/widgets/i18n/en.js',
     '.build/widgets/i18n/fr.js',
     '.build/widgets/i18n/i18nHelper.js',
     '.build/pages/**/*.js'
   ];
-  var listDependencies = [ 'bower_components/handlebars/handlebars.js', 'node_modules/lodash/lodash.js' ];
+  var listDependencies = [
+    'node_modules/handlebars/dist/handlebars.js',
+    'node_modules/lodash/lodash.js'
+  ];
 
   // configure the tasks
   grunt.initConfig({
@@ -37,7 +41,7 @@ module.exports = function(grunt) {
       },
       javascript: {
         cwd: 'app',
-        src: [ '**/*.js', '../bower_components/handlebars/handlebars.js'],
+        src: [ '**/*.js'],
         dest: '.build',
         expand: true
       },

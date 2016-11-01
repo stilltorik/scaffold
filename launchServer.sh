@@ -1,1 +1,2 @@
-DEBUG=myapp:* npm start
+DEBUG=scaffold:* npm start &
+mongod --dbpath ./data/db/

@@ -1,0 +1,13 @@
+<div class="loginForm">
+  {{#if loggedIn}}
+    {{i18n string='loginForm.greetings' username=username}}
+    <button onclick="app.loginForm.logout();">{{i18n string='loginForm.logout'}}</button>
+  {{else}}
+    <a href="/newUser">{{i18n string='loginForm.newUserLink'}}</a>
+    <form name="loginForm" onSubmit="app.loginForm.login(event); return false;">
+      <input name="username" type="text" placeholder="{{i18n string='loginForm.username'}}">
+      <input name="password" type="password" placeholder="{{i18n string='loginForm.password'}}">
+      <button type="submit">{{i18n string='loginForm.login'}}</button>
+    </form>
+  {{/if}}
+</div>

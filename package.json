@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "nodemon ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.13.2",
@@ -13,6 +13,14 @@
     "hbs": "~3.1.0",
     "less-middleware": "1.0.x",
     "morgan": "~1.6.1",
-    "serve-favicon": "~2.3.0"
+    "serve-favicon": "~2.3.0",
+    "nodemon": "1.10.2",
+    "express-session": "1.14.1",
+
+    "mongoose": "4.6.0",
+    "passport": "0.3.2",
+    "passport-local": "1.0.0",
+    "passport-http": "0.3.0",
+    "bcrypt": "0.8.7"
   }
 }
